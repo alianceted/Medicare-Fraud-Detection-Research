@@ -1,0 +1,22 @@
+# Large data files are never committed (documented in notebook 01 instead)
+data/raw/*
+data/external/*
+data/processed/*
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Secrets
+.env
+*.key
+
+docs/cms_ama_cpt_license_agreement*

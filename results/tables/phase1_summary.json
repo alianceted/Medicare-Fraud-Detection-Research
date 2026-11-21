@@ -1,0 +1,39 @@
+{
+  "run_at": "2026-11-21 02:47:32",
+  "study_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "lookahead_years": 3,
+  "fraud_exclusion_types": [
+    "1128a1",
+    "1128a3",
+    "1128b1",
+    "1128b7"
+  ],
+  "cms_rows_total": 48891840,
+  "provider_year_rows": 5626423,
+  "leie_records": 84224,
+  "leie_fraud_coded_records": 33697,
+  "leie_fraud_coded_with_usable_npi": 4353,
+  "positive_provider_years": 588,
+  "unique_positive_npis": 340,
+  "already_excluded_provider_years": 33,
+  "positives_by_year": {
+    "2019": 118,
+    "2020": 119,
+    "2021": 142,
+    "2022": 113,
+    "2023": 96
+  },
+  "unique_positives_by_window": {
+    "1": 102,
+    "2": 222,
+    "3": 340,
+    "4": 410,
+    "5": 449
+  }
+}
